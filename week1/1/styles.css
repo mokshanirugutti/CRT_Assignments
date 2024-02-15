@@ -70,6 +70,9 @@ a {
     position: relative;
     border: none;
 }
+input:focus{
+    outline: none;
+}
 
 #header #content input::after {
     content: '\1F50D'; /* Unicode for magnifying glass icon */
